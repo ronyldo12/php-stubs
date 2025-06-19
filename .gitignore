@@ -2,3 +2,4 @@
 vendor
 .phpunit.result.cache
 coverage.xml
+coverage-html/

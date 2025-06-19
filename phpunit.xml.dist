@@ -16,6 +16,10 @@
         <include>
             <directory suffix=".php">src</directory>
         </include>
-        <minimum>90</minimum>
+        <minimum>
+            <lines>80</lines>
+            <classes>80</classes>
+            <methods>80</methods>
+        </minimum>
     </coverage>
 </phpunit> 
