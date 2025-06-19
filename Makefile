@@ -7,3 +7,7 @@ install:
 test:
 	docker build -t stub-php .
 	docker run --rm -v $(PWD):/app --entrypoint=php --name $(CONTAINER_NAME) stub-php vendor/bin/phpunit tests
+	
+test-ci:
+	docker build -t stub-php .
+	docker run --rm --entrypoint=php --name $(CONTAINER_NAME) stub-php vendor/bin/phpunit tests
