@@ -10,6 +10,10 @@ RUN apt-get update \
 RUN pecl install runkit7-4.0.0a6 \
     && docker-php-ext-enable runkit7
 
+# Install Xdebug for code coverage (latest for PHP 7.4 is 3.1.6)
+RUN pecl install xdebug-3.1.6 \
+    && docker-php-ext-enable xdebug
+
 # Install Composer
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 
