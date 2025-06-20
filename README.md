@@ -1,6 +1,6 @@
 # PHP Stubs
 
-A flexible, simple and poweful PHP stubbing library for unit testing, built on the runkit7 extension. Easily stub instance and static methods, use advanced argument matchers, and set call expectations. Designed for seamless integration with PHPUnit and PHP 7.4+.
+A flexible, simple, and powerful PHP stubbing library for unit testing, built on the runkit7 extension. Easily stub instance and static methods, use advanced argument matchers, and set call expectations. Designed for seamless integration with PHPUnit and PHP 7.4+.
 
 ## Requirements
 - PHP 7.4 or higher
@@ -12,7 +12,7 @@ A flexible, simple and poweful PHP stubbing library for unit testing, built on t
 Install via Composer:
 
 ```
-composer require --dev stubs/php
+composer require --dev ronyldo12/php-stubs
 ```
 
 > **Note:** You must have the runkit7 extension installed and enabled in your PHP environment.
