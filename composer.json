@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "0.0.1-beta",
     "name": "ronyldo12/php-stubs",
     "description": "A flexible, simple and poweful PHP stubbing library for unit testing, built on the runkit7 extension. Easily stub instance and static methods, use advanced argument matchers, and set call expectations. Designed for seamless integration with PHPUnit and PHP 7.4+.",
     "type": "library",
