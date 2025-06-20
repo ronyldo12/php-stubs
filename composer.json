@@ -1,0 +1,19 @@
+{
+    "version": "0.0.1",
+    "name": "ronyldo12/php-stubs",
+    "description": "A flexible, simple and poweful PHP stubbing library for unit testing, built on the runkit7 extension. Easily stub instance and static methods, use advanced argument matchers, and set call expectations. Designed for seamless integration with PHPUnit and PHP 7.4+.",
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stubs\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+} 
